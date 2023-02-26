@@ -4,12 +4,23 @@ import java.util.Scanner;
 
 public class MyMain {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter your age: ");
+        String ageString = scanner.nextLine();
+        int age = Integer.parseInt(ageString);
+
+        System.out.println("Enter your name: ");
+        String name = scanner.nextLine();
+        System.out.println(
+            "Your name is " + name + " and you are " + age + " years old."
+        );
         // Scanner scanner = new Scanner(System.in);
         // System.out.println("Enter your age: ");
         // String ageString = scanner.nextLine();
         // int age = Integer.parseInt(ageString);
         // String name = scanner.nextLine();
-        // System.out.println("Your name is46 " + name + " and you are " + age + " years
+        // System.out.println("Your name is " + name + " and you are " + age + " years
         // old.");
 
         // userInput.useDelimiter("*"); // Bryter vid tecknet '*'
@@ -96,10 +107,32 @@ public class MyMain {
         // }
 
         // Lecture
-        Scanner userInput = new Scanner(System.in);
-        int x = 0;
-        String str = userInput.next();
-        System.out.println("You entered " + str + x);
-        userInput.close();
+        // System.out.println("Enter something ");
+        // Scanner userInput = new Scanner(System.in);
+        // int x = 0;
+        // String str = userInput.next();
+        // System.out.println("You entered " + str);
+        // userInput.close();
+        // int height = 0;
+        // height = userInput.nextInt();
+        // System.out.println("You entered " + height);
+
+        // while (true) {
+        //     System.out.print("\nEnter a number:");
+
+        //     if (userInput.hasNextInt()) {
+        //         System.out.println("hasNextInt");
+        //     }
+        //     if (userInput.hasNextFloat()) {
+        //         System.out.println("hasNextFloat");
+        //     }
+        //     if (userInput.hasNext()) {
+        //         System.out.println("hasNextString");
+        //     }
+        //     userInput.nextLine();
+
+            // userInput.close();
+        // }
+
     }
 }
