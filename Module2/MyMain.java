@@ -1,4 +1,3 @@
-package Module2;
 
 import java.util.Scanner;
 
@@ -13,8 +12,7 @@ public class MyMain {
         System.out.println("Enter your name: ");
         String name = scanner.nextLine();
         System.out.println(
-            "Your name is " + name + " and you are " + age + " years old."
-        );
+                "Your name is " + name + " and you are " + age + " years old.");
         // Scanner scanner = new Scanner(System.in);
         // System.out.println("Enter your age: ");
         // String ageString = scanner.nextLine();
@@ -118,20 +116,20 @@ public class MyMain {
         // System.out.println("You entered " + height);
 
         // while (true) {
-        //     System.out.print("\nEnter a number:");
+        // System.out.print("\nEnter a number:");
 
-        //     if (userInput.hasNextInt()) {
-        //         System.out.println("hasNextInt");
-        //     }
-        //     if (userInput.hasNextFloat()) {
-        //         System.out.println("hasNextFloat");
-        //     }
-        //     if (userInput.hasNext()) {
-        //         System.out.println("hasNextString");
-        //     }
-        //     userInput.nextLine();
+        // if (userInput.hasNextInt()) {
+        // System.out.println("hasNextInt");
+        // }
+        // if (userInput.hasNextFloat()) {
+        // System.out.println("hasNextFloat");
+        // }
+        // if (userInput.hasNext()) {
+        // System.out.println("hasNextString");
+        // }
+        // userInput.nextLine();
 
-            // userInput.close();
+        // userInput.close();
         // }
 
     }

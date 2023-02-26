@@ -29,12 +29,12 @@ public class Task3 {
         System.out.println("Sum: " + (first + second));
         System.out.println("Diff: " + (first - second));
         System.out.println("Product: " + (first * second));
-        // System.out.println("Distance (absolute amount): " + (Math.hypot(first, second)));
-        System.out.println("Mean: " + ((first + second)/2));
+        // System.out.println("Distance (absolute amount): " + (Math.hypot(first,
+        // second)));
+        System.out.println("Mean: " + ((first + second) / 2));
         System.out.println("maximum value: " + (Math.max(first, second)));
         System.out.println("Min value: " + (Math.min(first, second)));
 
-
-
+        userInput.close();
     }
 }
